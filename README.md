@@ -1,3 +1,4 @@
+
 # C9Week4Project
 Make your own Shiny App
 
@@ -7,7 +8,11 @@ The ideas are endless, however, I chose to do a simple Shiny app that allows the
 decided upon by the user and provide as output the average of those randomly chosen points. 
 
 Inputs: \
-The user should use the slider to move to the number of points they'd like to take the average of.
+There are 2 sliders in this Shiny app \
+1. The user can select the number of randomly generated points they'd like to take the average 
+2. The user can move the slider to identify the range in which the points will be randomly generated - numbers between 1 and 1000
+
+The user should use the slider to move to the number of points they'd like to take the average.
 Then the user should move the slider to indicate the range of the value of the points they'd like to use - this limits the values
 chosen to take an average of.
 
