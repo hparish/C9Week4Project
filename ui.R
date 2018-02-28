@@ -20,13 +20,13 @@ shinyUI(fluidPage(
     sidebarPanel(
       # Input: Single number of variables to average----
        sliderInput("numvar",
-                   "Number of variables you want to average:",
+                   "Number of data points you want to average:",
                    min = 1,
                    max = 1000,
                    value = 30),
        
        # Input: Specification of range within an interval ----
-       sliderInput("range", "Range:",
+       sliderInput("range", "Range of those data points that will be randomly generated:",
                    min = 1, max = 1000,
                    value = c(200,500))
        
